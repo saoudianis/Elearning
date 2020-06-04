@@ -1,0 +1,85 @@
+@import "compass/css3";
+
+@import url(https://fonts.googleapis.com/css?family=Merriweather);
+$red: #e74c3c;
+
+*, 
+*:before, 
+*:after {
+   @include box-sizing(border-box); 
+}
+
+
+
+h1 {
+    font-size: 18pt;
+    float: inherit;
+    margin-right: 70%;
+   text-align: center;
+   color: #E7E3D4;
+   @include text-shadow(1px 1px 0 rgba(white, 1));
+    left: 50%;
+}
+
+form {
+   max-width: 100%;
+   text-align: center;
+   margin: 20px auto;
+  
+  input, textarea {
+     border:0; outline:0;
+     padding: 1em;
+     @include border-radius(8px);
+     display: block;
+     width: 100%;
+     margin-top: 1em;
+     font-family: 'Merriweather', sans-serif;
+     @include box-shadow(0 1px 1px rgba(black, 0.1));
+      resize: none;}
+    
+    &:focus {
+       @include box-shadow(0 0px 2px rgba($red, 1)!important);
+    }
+  }
+  
+  #input-submit {
+     width: 100px;
+    height: 30px;
+    border-radius: 15px;
+    background-color:#B23850 ;
+    color: #E7E3D4;
+    font-size: 120%;
+    box-shadow: 0 5px #8590AA;
+    border: none;
+    cursor:pointer;
+    
+    
+    position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+    margin-top: 30px;
+    }
+  }
+  
+  textarea {
+      height: 126px;
+  }
+}
+
+
+
+/* Clearfix */
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+#input-message{
+    margin-top: 3px;
+    width: 300px;
+    height: 200px;
+}

@@ -1,0 +1,42 @@
+.step{
+    
+    margin-top: 45px;
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 28pt;
+    color: #E7E3D4;
+    padding-top: 15px;
+}
+.view {
+    width: 230px;
+    height: 60px;
+    border-radius: 15px;
+    background-color:#B23850 ;
+    color: #E7E3D4;
+    font-size: 120%;
+    box-shadow: 0 5px #8590AA;
+    border: none;
+    cursor:pointer;
+    
+    
+    position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+    margin-top: 100px;
+}
+.view:hover{
+    background-color: #0562b2;   
+}
+.view:active{
+    box-shadow: 0px 0px #212121;
+    
+}
+
+#dark{
+    margin-top: 10px;
+    float: right;
+}
+#light{
+    margin-top: 10px;
+    float: left;
+}

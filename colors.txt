@@ -1,0 +1,22 @@
+-------------
+dark mode
+bgc : #414141
+divc : #010101
+------------
+general color :
+blue : #3B8BEB
+--------------
+writting color :
+beg : #E7E3D4
+------------
+shodow colors : 
+grey : #8590AA
+-------------
+additional colors:
+bordo : #B23850
+-------------
+button color :
+blue : #0662af
+--------------
+
+
